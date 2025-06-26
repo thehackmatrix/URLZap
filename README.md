@@ -1,9 +1,18 @@
 
 # URLZap
 
-URLZap is an advanced multithreaded URL reconnaissance and crawling tool built in Python.
+URLZap is a high-performance, multithreaded URL reconnaissance and crawling tool written in Python. It is designed for security researchers, penetration testers, and bug bounty hunters to efficiently discover internal links within target websites, helping to map attack surfaces and gather valuable reconnaissance data.
 
-It efficiently crawls a target website to discover internal links and outputs progress in real-time with a clean pink-themed UI.
+Multithreaded crawling for fast URL enumeration
+
+Customizable depth and URL limits for thorough site discovery
+
+Real-time progress display with a clear, user-friendly interface
+
+Outputs crawled URLs for further scanning or manual review
+
+URLZap enables comprehensive URL gathering to support security assessments, web scraping, and site analysis workflows.
+
 
 ## Features
 
