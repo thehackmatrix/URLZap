@@ -106,5 +106,5 @@ class HackMatrixCrawler:
 
 if __name__ == "__main__":
     base_url = input("Enter the URL to crawl (e.g. https://example.com): ").strip()
-    crawler = HackMatrixCrawler(base_url, max_pages=100, max_threads=10)
+    crawler = HackMatrixCrawler(base_url, max_pages=1000, max_threads=10)
     crawler.start()
