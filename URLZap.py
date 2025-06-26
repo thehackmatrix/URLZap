@@ -31,7 +31,7 @@ def print_banner():
 
 # Crawler code
 class HackMatrixCrawler:
-    def __init__(self, base_url, max_pages=100, max_threads=10):
+    def __init__(self, base_url, max_pages=1000, max_threads=10):
         self.base_url = base_url
         self.max_pages = max_pages
         self.visited = set()
